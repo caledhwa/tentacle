@@ -189,6 +189,9 @@ void updateSerial() {
       Console.print(":\t");
       Console.println(sensor_data[i]);             // print the actual reading
     }
+    Console.print("FM");
+    Console.print(":\t");
+    Console.println(String(sensordata));
     Console.println("---------------");
     next_serial_time = millis() + send_readings_every;
   }
