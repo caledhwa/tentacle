@@ -347,7 +347,7 @@ void sendData()
     }
   }
 
-  jsonData += ",{\"key\": \"" + "FM" + "\", \"value\": \"" + str(sensordata) + "\"}";
+  jsonData += ",{\"key\": \"FM\", \"value\": \"" + String(sensordata) + "\"}";
 
   jsonData += "]";
 
